@@ -1,0 +1,48 @@
+
+.filmpagina{
+  padding-left: 100px;
+    list-style-type: none;
+    display:grid;
+    grid-template-columns: 30% 70%;  
+}
+
+.film_foto{
+  width: 100%;
+  object-fit: contain;
+  max-height: 105%;
+  margin-right: 80%;
+}
+
+.film_beschrijving{
+  color: white;
+  margin-left:10%;
+}
+
+.film_beschrijving > u > h1{
+  margin-bottom: 20px;
+}
+
+.film_beschrijving > h2 {
+  
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.film_beschrijving > a > h2{
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color:orange;
+}
+
+p{
+  margin-left:20px;
+  margin-right:60px;
+}
+
+.SpeelKnop > button{
+  margin-top: 10%;
+  margin-left:35%;
+  font-size: 25px;
+}

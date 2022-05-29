@@ -1,0 +1,50 @@
+.grid-container2{
+  display:grid;
+  grid-template-columns: 70% 30%;
+  padding: 20px;
+}
+
+.grid-container3{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.uitleg-bedrijf > h1{
+  font-size: 26px;
+  color: rgb(226, 135, 17);
+}
+
+.uitleg-bedrijf > p{
+color: white;
+  font-size:14px;
+  margin-right: 50px;
+  
+}
+
+.algemene_info{
+  padding-top: 30px;
+  color: rgb(226, 135, 17);
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.Linkjes >  button{
+  margin:20px;
+  background-color: rgb(226, 135, 17);
+  color: black;
+}
+
+.Extra_Info > h1{
+  margin-right: 350px;
+  text-align:end;
+  font-size: 26px;
+  color: rgb(226, 135, 17);
+}
+
+.Extra_Info > p{
+  color: white;
+  font-size:14px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-weight: normal;
+}
